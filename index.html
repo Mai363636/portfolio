@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header" class="header">
+        <nav id="nav" class="nav">
+            <a href="#" class="logo">
+                Portfolio
+            </a>
+            <div id="navMenu" class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link about">About</a></li>
+                    <li><a href="#skills" class="nav-link skills">Skills</a></li>
+                    <li><a href="#works" class="nav-link works">Works</a></li>
+            
+
+                    <li id="theme" class="theme"></li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="navToggle">
+                <div class="line top"></div>
+                <div class="line middle"></div>
+                <div class="line bottom"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- top -->
+        <section id="top">
+            <div class="container top-container">
+                <div class="top-title right">
+                    <h1>Hi, I am Mai Inaba.</h1>
+                    <p>I am an INM student at Seneca. <br>
+                        
+                    </p>
+                    <button>Contact me</button>
+                </div>
+                <div class="top-image left">
+                    <img src="./img/top.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="container about-container">
+                <h2 class="section-title">About me</h2>
+                <div class="about-wrapper">
+                    <div class="about-image right">
+                        <img src="./img/about.png" alt="">
+                    </div>
+                    <div class="about-title left">
+                        <h2>Interaction Designer</h2>
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="container skills-container">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills-wrapper">
+                    <div class="skill-bar">
+                        <div class="skill-wrapper">
+                            <p>Social Media Coordinating</p>
+                            <span class="score count" data-max="80">0%</span>
+                            <div class="progress bar" style="--max: 80%;"></div>
+                        </div>
+                        <div class="skill-wrapper">
+                            <p>Product Photography</p>
+                            <span class="score count" data-max="75">0%</span>
+                            <div class="progress bar" style="--max: 75%;"></div>
+                        </div>
+                        <div class="skill-wrapper">
+                            <p>Videography</p>
+                            <span class="score count" data-max="70">0%</span>
+                            <div class="progress bar" style="--max: 70%;"></div>
+                        </div>
+                        <div class="skill-wrapper">
+                            <p>Adobe Software</p>
+                            <span class="score count" data-max="50">0%</span>
+                            <div class="progress bar" style="--max: 50%;"></div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+        <!-- works -->
+        <section id="works">
+            <div class="container works-container">
+                <h2 class="section-title">Works</h2>
+                <div class="swiper-container">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="./img/works6.jpg" alt="">
+                                    <h4>Photography</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ">
+                                    <img src="./img/works2.jpg" alt="">
+                                    <h4>Logo Design</h4>
+                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ">
+                                    <img src="./img/works3.jpg" alt="">
+                                    <h4>Menu Design</h4>
+                                   
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card ">
+                                    <img src="./img/works4.jpg" alt="">
+                                    <h4>Photography</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-scrollbar"></div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+       
+
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="sns">
+            <div class="sns-title">Follow me</div>
+            <div class="sns-wrapper">
+                <a href="https://www.linkedin.com/in/mai-inaba-55b5442b3/" target="_blank" class="jump" style="--i: .2s;"><i class='bx bxl-linkedin'></i></a></i>
+                <a href="https://www.instagram.com/twinx_van/" target="_blank"class="jump" style="--i: .6s;"><i class='bx bxl-instagram'></i></a></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scroll -->
+    <a href="#top" id="scrollTop">
+        <i class='bx bxs-up-arrow-alt'></i>
+    </a>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
